@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function Home() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1 style={{ fontSize: "2.5rem" }}>Maverick's Portfolio</h1>
+      <h1 style={{ fontSize: "2.5rem" }}>Prashant's Portfolio</h1>
       <p style={{ fontSize: "1.2rem" }}>
         Welcome to my portfolio website! Explore my work and know more about me.
       </p>
@@ -19,7 +19,7 @@ function About() {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h2 style={{ fontSize: "2rem" }}>About Me</h2>
       <p style={{ fontSize: "1.1rem", maxWidth: "600px", margin: "20px auto" }}>
-        Hi! I am Maverick, A UIUX designer .
+        Hi! I am Prashant, A content creator and full-stack developer.
       </p>
     </div>
   );
@@ -44,7 +44,7 @@ function Contact() {
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}> {/* reduced from 50px */}
       <h2 style={{ fontSize: "2rem" }}>Contact Me</h2>
-      <p style={{ fontSize: "1.1rem" }}>Email: Maverick@gmail.com</p>
+      <p style={{ fontSize: "1.1rem" }}>Email: Prashant@gmail.com</p>
       <p style={{ fontSize: "1.1rem" }}>Phone: +91 987654321</p>
     </div>
   );
